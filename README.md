@@ -1,81 +1,47 @@
-# Ecommerce (React) Coding Assessment
+# Krypto Frontend Challenge
 
-## Overview
+This is a E Commerce Application in which usersc an browse trough the products, add them to cart , and also order them accordingly.
 
-To complete this assessment, you will need to use this [Ecommerce-boilerplate](https://github.com/gurukishore111/Ecommerce-boilerplate) web app.
+# Made using ⚒️
+- React 
+- React Context API
+- JSON-Server
+- TailWind CSS
 
-The purpose of this assessment is to assess your **skills and approach to composing a simple web app** given an API feed.
+# Functionalities Of App 🖥️
 
-## What to do?
+## Login 
+![image](https://user-images.githubusercontent.com/64892076/181856777-6aff7eea-db8c-4b28-859b-93d1158b7055.png)
 
-Your goal is to implement an eCommerce application. The CSS framework/library is totally up to you.
+This is where users can login to the websites and users need to create account in case they do not have one.
 
-Although it's a very basic exercise, we will be looking for simple, well-designed, well-commented, and tested code in the submission.
+# Product 
+![image](https://user-images.githubusercontent.com/64892076/181856922-5eba8c08-e6be-4410-8cbd-f0816777dc8c.png)
 
-Please include a `README` with setup instructions and any other documentation you created as part of your solution.
+This is where users can browser through the catalogue of Products and also add them to cart and also can add them to their favourites.
 
-Also, add very short info for the following to your `README`:
+# Item
+![image](https://user-images.githubusercontent.com/64892076/181856977-f14079ef-db47-4b80-bff0-111f26075a61.png)
 
-- Describe all the application functionalities
-- Are there any improvements you could make to your submission?
-- What would you do differently if you were allocated more time?
 
-Once you complete implementation, please add the link to the hosted repository (e.g. Github). Alternatively, you may submit your code as a ZIP file too.
+This is where users can indiviually see the product , their detailed description and again can add them to cart from here.
 
-(NOTE: You have to use the latest version of v18 and react-router-dom v6)
+# Cart 
+![image](https://user-images.githubusercontent.com/64892076/181857108-2668c23d-180c-45b9-9c5d-89e21ca18c1c.png)
+![image](https://user-images.githubusercontent.com/64892076/181857179-aee21868-c329-4672-afe2-27bf4d05a7c1.png)
 
-## How should the application work?
+This is where users would place the order and also can delete the cart and once they place a order they will get a sucessful modal.
 
-The user of this react application should be able to view all the products. The application should have the following workflow,
+# Are there any improvements you could make to your submission?
+Yes, there are some improvements in the code like I could make the UI for pages like Cart more better and also I would check for some bugs especially as per my intuition there are some bugs in login and register so I would fix that with also then cleaning up my codebase a bit more and writing more detailed description of some utility functions to let other peers understand what the function is actually doing.
 
-1. Create the login/register functionality.
-2. Once the user is authenticated
-3. Users can add the products to the cart page
-4. Also user can add their favourite products
+# What would you do differently if you were allocated more time?
+I would basically use a NoSQL DB like Mongo DB and then I would develop a Graph QL API with Apollo Server so that I could do complex queries and also inserting or mutating data in more efficient and faster way. Also , I would use cookeies to store user info and access token which we get everytime we authenticate a user so that we can contiuously check till when is user logged in and accordingly authenticate them on timely basis for better security and also improve the UI of some pages like Cart and Items Page and make them a bit more responsive.
 
-## Development Setup
+# Made By
 
-- Clone this repo
-- `npm install` - To install the dependencies
-- `npm run server` - To start the JSON server
-- `npm start` - To start the react app
+Shamik Bera
 
-## This project's user interface should like this.
+19BCE2699
 
-### Login/Register page
-
-<img width="1512" alt="Screenshot 2022-07-24 at 10 44 13 AM" src="https://user-images.githubusercontent.com/52570524/180701451-5ccce009-0384-426c-b1bc-d7536fd7b142.png">
-
-### Home page
-
-<img width="1512" alt="Screenshot 2022-07-24 at 10 45 58 AM" src="https://user-images.githubusercontent.com/52570524/180701523-b679c753-68ff-47f1-9a1b-f4cc04d88fea.png">
-
-### Product detail page
-
-<img width="675" alt="Screenshot 2022-07-24 at 10 53 17 AM" src="https://user-images.githubusercontent.com/52570524/180701655-7c3d3120-ff81-445a-81d9-b2152db8a776.png">
-
-### Cart page
-
-<img width="1415" alt="Screenshot 2022-07-24 at 10 50 18 AM" src="https://user-images.githubusercontent.com/52570524/180701661-a587033d-4616-40f8-9260-dfd3e8b97152.png">
-
-<img width="1472" alt="Screenshot 2022-07-24 at 10 51 16 AM" src="https://user-images.githubusercontent.com/52570524/180701674-31c7e11c-56b3-4f24-83c4-e9d582c4b3f8.png">
-
-## API Usage
-
-API can be launched using npm run server.
-| Endpoint | Result |
-|------------------------------|-----------------------------------------------------|
-| /users | Lists all available users |
-| /products | Lists all available products |
-| /orders | Lists all available orders  
-| /favourites | Lists all available favourites
-
-More info about API usage can be found at the [Postman Collection](https://www.getpostman.com/collections/9f28d57ae334429e1f1f)
-
-## Bonus
-
-- Feel free to add functionality (not mandatory)
-- Use redux/context for state management
-- Well explained readme (screenshot etc)
-
----
+CSE(Core)
