@@ -24,7 +24,8 @@ The users can browse through the catalogue of products available and add it to t
 Here the users can see each peoduct indiviually to get to know more about the product and then again can add these to cart.
 
 ## Cart 
-![image](https://user-images.githubusercontent.com/64892076/181852272-3bf0309f-c4ad-45b2-a0da-74124f0a8c50.png)
+![image](https://user-images.githubusercontent.com/64892076/181853963-685024ed-fe7c-4936-be1b-0a4215940e35.png)
+
 
 This is the cart page where the users can see the cart items that they have added to the cart.
 
