@@ -1,6 +1,7 @@
-# Krypto Frontend Challenge
+<h1 align="center">Krypto Frontend Challenge💪</h1>
 
-This is a E Commerce Application in which users can browse trough the products, add them to cart , and also order them accordingly.
+<p align="center">This is a E Commerce Application in which users can browse trough the products, add them to cart , and also order them accordingly.</p>
+<br />
 
 # Made using ⚒️
 - React 
